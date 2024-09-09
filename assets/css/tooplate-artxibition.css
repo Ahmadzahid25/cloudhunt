@@ -665,13 +665,16 @@ header
 @media (max-width: 767px) {
   .header-area .logo img {
     max-width: 21%; /* Ensures the logo image never exceeds its container */
-	margin-left: -40px;
+	margin-left: -15px;
+	margin-top: -1px; /* Moves the text upwards */
     height: auto; /* Keeps the aspect ratio */
   }
 
   .header-area .logo {
     margin-left: 0; /* Remove unnecessary margin on mobile */
+	margin-top: 7px;
     text-align: center; /* Center the logo horizontally */
+	
   }
 
   .header-area {
@@ -679,6 +682,11 @@ header
     height: auto; /* Allow height to adjust based on content */
   }
 }
+
+
+
+
+
 
 
 @media only screen and (max-width: 600px) {
