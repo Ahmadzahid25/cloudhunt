@@ -397,9 +397,9 @@ header
 /* mobile view header logo cloud hunt*/
 @media (max-width: 767px) {
   .header-area .logo img {
-    max-width: 21%; /* Ensures the logo image never exceeds its container */
+    max-width: 60%; /* Ensures the logo image never exceeds its container */
 	margin-left: -15px;
-	margin-top: -1px; /* Moves the text upwards */
+	margin-top: -80px; /* Moves the text upwards */
     height: auto; /* Keeps the aspect ratio */
   }
 
