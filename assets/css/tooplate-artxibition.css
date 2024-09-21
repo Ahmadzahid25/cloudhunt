@@ -351,6 +351,10 @@ header
   transition: all .5s ease 0s;
 }
 
+/*header logo cloud hunt*/
+/*header logo cloud hunt*/
+/*header logo cloud hunt*/
+/*header logo cloud hunt*/
 
 .header-area .main-nav {
   min-height: 80px;
@@ -360,7 +364,7 @@ header
 .header-area .main-nav .logo {
   line-height: 80px;
   color: #656c74;
-  font-size: 28px;
+  font-size: px;
   font-weight: 700;
   float: left;
   -webkit-transition: all 0.3s ease 0s;
@@ -369,11 +373,6 @@ header
   transition: all 0.3s ease 0s;
 }
 
-.header-area .main-nav .logo em {
-  font-style: normal;
-  color: #2a2a2a;
-  font-weight: 900;
-}
 
 .logo {
     display: flex;
@@ -381,19 +380,44 @@ header
 }
 
 .logo-image {
-    height: 100px;  /* Adjust the size of the logo */
+    height: 200px;  /* Adjust the size of the logo */
     width: auto;   /* Maintains the aspect ratio */
-    margin-right: -10px; /* Space between the logo and the text */
-    margin-left: -400px; /* Moves the logo to the right */
-}
-
-.logo-text {
-    font-size: 24px; /* Adjust the font size based on your design */
-    margin-top: -10px; /* Moves the text upwards */
+    margin-right: 1px; /* Space between the logo and the text */
+    margin-left: 1px; /* Moves the logo to the right */
+	margin-top: -65px; /* Moves the text upwards */
 }
 
 
 
+/*header logo cloud hunt*/
+/*header logo cloud hunt*/
+/*header logo cloud hunt*/
+/*header logo cloud hunt*/
+
+/* mobile view header logo cloud hunt*/
+@media (max-width: 767px) {
+  .header-area .logo img {
+    max-width: 21%; /* Ensures the logo image never exceeds its container */
+	margin-left: -15px;
+	margin-top: -1px; /* Moves the text upwards */
+    height: auto; /* Keeps the aspect ratio */
+  }
+
+  .header-area .logo {
+    margin-left: 0; /* Remove unnecessary margin on mobile */
+	margin-top: 7px;
+    text-align: center; /* Center the logo horizontally */
+	
+  }
+
+  .header-area {
+    padding: 0px 10px; /* Adjust padding to fit the screen */
+    height: auto; /* Allow height to adjust based on content */
+  }
+}
+
+
+/* mobile view header logo cloud hunt*/
 
 .header-area .main-nav .nav {
   float: right;
@@ -662,26 +686,7 @@ header
 }
 
 
-@media (max-width: 767px) {
-  .header-area .logo img {
-    max-width: 21%; /* Ensures the logo image never exceeds its container */
-	margin-left: -15px;
-	margin-top: -1px; /* Moves the text upwards */
-    height: auto; /* Keeps the aspect ratio */
-  }
 
-  .header-area .logo {
-    margin-left: 0; /* Remove unnecessary margin on mobile */
-	margin-top: 7px;
-    text-align: center; /* Center the logo horizontally */
-	
-  }
-
-  .header-area {
-    padding: 0px 10px; /* Adjust padding to fit the screen */
-    height: auto; /* Allow height to adjust based on content */
-  }
-}
 
 
 
@@ -825,6 +830,7 @@ banner
 --------------------------------------------- 
 */
 
+/*
 .main-banner {
   background-image: url("../images/clouadhunt1920.2.png");
   background-repeat: no-repeat;
@@ -869,6 +875,7 @@ banner
   font-size: 14px;
   font-weight: 300;
 }
+*/
 /*
 
 .main-banner .counter-content {
@@ -906,7 +913,7 @@ Show Events Carousel
 */
 .owl-show-events {
   position: relative;
-  margin-top: -60px;
+  margin-top: -43px;
 }
 
 .owl-show-events .owl-nav {
